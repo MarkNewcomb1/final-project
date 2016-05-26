@@ -1,8 +1,8 @@
 var React = require("react");
 var Message = require("./Message.jsx");
 var MessageForm = require('./MessageForm.jsx');
-
-var MessageApp = React.createClass({
+var Discogs = require('disconnect').Client;
+var VinylApp = React.createClass({
 	render: function() {
 		var messages = this.state.messages;
 		var messageHTML = [];
@@ -29,11 +29,16 @@ var MessageApp = React.createClass({
 		}, 'json');
 	},
 	componentDidMount: function() {
-		this.getMessages();	
+		this.getMessages();
+        var dis = new Discogs().setConfig({outputFormat: 'html'});
+        var db = new Discogs().database();
+        db.getRelease(176126, function(err, data){
+            return (<div>(data)</div>);
+});
 	}
 });
 
-module.exports = MessageApp;
+module.exports = VinylApp;
 
 
 

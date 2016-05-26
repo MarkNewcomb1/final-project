@@ -7,9 +7,20 @@ var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
 var expressSession = require('express-session');
 var config = require('./config.js');
+var Discogs = require('disconnect').Client;
 var app = express();
+var dis = new Discogs('MarksVinylCollection/1.0');
 var mongoose = require ("mongoose");
 mongoose.connect("mongodb://localhost");
+var Schema = mongoose.Schema;
+var userSchema = new Schema({
+  _id: Number,
+  username: String,
+  password: String,
+  vinylCollection: [{discogsId: Number, notes: String}],
+  date: { type: Date, default: Date.now }
+});
+var User = mongoose.model('User', userSchema);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(cookieParser());
