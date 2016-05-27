@@ -9,7 +9,7 @@ var expressSession = require('express-session');
 var config = require('./config.js');
 var Discogs = require('disconnect').Client;
 var app = express();
-var dis = new Discogs('MarksVinylCollection/1.0');
+var dis = new Discogs('MarksVinylCollection/1.0', {userToken: 'YOUR_USER_TOKEN'});   
 var mongoose = require ("mongoose");
 mongoose.connect("mongodb://localhost");
 var Schema = mongoose.Schema;
@@ -29,24 +29,24 @@ secret: config.secret,
 resave: true,
     saveUninitialized: true
 }));
-var Message = mongoose.model("Message", {
-text: String,
-username: String
-});
 app.get("/", function(req, res) {
-if (!req.session.username) {
-res.redirect("/login");
-return;
-}
+    //removed forced login for now
+//if (!req.session.username) {
+//res.redirect("/login");
+//return;
+//}
 res.sendFile(__dirname + "/public/index.html");
 });
-app.get("/messages", function(req, res){
+    
+    
+
+app.get("/collection", function(req, res){
 if (!req.session.username) {
 res.send("[]");
 return;
 }
 // res.send(JSON.stringify(messages));
-Message.find({}, "text username", function(err, data) {
+User.find({}, "vinylCollection", function(err, data) {
 if (err) {
 res.send("[]");
 return;

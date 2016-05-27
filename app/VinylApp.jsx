@@ -1,40 +1,34 @@
 var React = require("react");
-var Message = require("./Message.jsx");
-var MessageForm = require('./MessageForm.jsx');
 var Discogs = require('disconnect').Client;
+var db = new Discogs().database();
 var VinylApp = React.createClass({
 	render: function() {
-		var messages = this.state.messages;
-		var messageHTML = [];
-		for(var i = 0; i < messages.length; i++){
-			messageHTML.push(<Message key={i} text={messages[i]} />);
-		}
-		return (<div>
-			{messageHTML}
-			<MessageForm getMessages={this.getMessages}/>
-		</div>);
+		var albums = this.state.albums;
+		var albumsHTML = [];
+        return <div>{this.state.data.title}</div>;
 	},
 	getInitialState: function(){
 		var stateObj = {
-			messages: []
+			albums: [],
+            data: ""
 		};
 		return stateObj;
 	},
-	getMessages: function() {
+	getAlbums: function() {
 		var that = this;
-		$.get('/messages', function(result) {
+		$.get('/albums', function(result) {
 			that.setState({
 				messages: result
 			});
 		}, 'json');
 	},
 	componentDidMount: function() {
-		this.getMessages();
-        var dis = new Discogs().setConfig({outputFormat: 'html'});
-        var db = new Discogs().database();
+        var that = this;
         db.getRelease(176126, function(err, data){
-            return (<div>(data)</div>);
-});
+            that.setState({
+               data: data 
+            });
+        });
 	}
 });
 
