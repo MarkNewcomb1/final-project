@@ -16,7 +16,7 @@ GET /
 	Login screen
 
 POST/
-	Redirect to collection if successful
+	Redirect to collection (index) if successful
 
 GET/ collection
 	Render collection
