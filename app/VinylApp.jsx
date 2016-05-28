@@ -9,7 +9,7 @@ var VinylApp = React.createClass({
 		var albumsHTML = [];
         return <div><h1>{this.state.data.title}</h1>
         <SearchComponent />
-        <AlbumComponent />
+        <AlbumComponent data={this.props.data}/>
         </div>;
 	},
 	getInitialState: function(){
