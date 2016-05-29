@@ -1,13 +1,14 @@
 var React = require("react");
 var SearchComponent = require('./SearchComponent.jsx');
 var AlbumComponent = require('./AlbumComponent.jsx');
+var data = require("./data.js");
 var Discogs = require('disconnect').Client;
 var db = new Discogs().database();
 var VinylApp = React.createClass({
 	render: function() {
         return <div><h1>{this.state.data.title}</h1>
         <SearchComponent />
-       <AlbumComponent />
+       <AlbumComponent data={data}/>
         </div>;
 	},
 	getInitialState: function(){
