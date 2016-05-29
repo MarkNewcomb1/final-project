@@ -6,7 +6,7 @@ var AlbumComponent = React.createClass({
     render: function(){
         return (
             <div>
-          {this.props.data}
+          {data.toString()}
         </div>
         );
     }
