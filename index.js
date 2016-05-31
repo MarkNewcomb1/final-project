@@ -9,7 +9,8 @@ var expressSession = require('express-session');
 var config = require('./config.js');
 var Discogs = require('disconnect').Client;
 var app = express();
-var dis = new Discogs('MarksVinylCollection/1.0', {userToken: 'YOUR_USER_TOKEN'});   
+var APIKey = require('./secret.js').APIKey;
+var dis = new Discogs('MarksVinylCollection/1.0', {userToken: APIKey});   
 var mongoose = require ("mongoose");
 mongoose.connect("mongodb://localhost");
 var Schema = mongoose.Schema;
@@ -81,6 +82,11 @@ res.send("success");
 var Login = require("./login.js");
 app.get("/login", Login.getLogin);
 app.post("/login", Login.postLogin);
+app.get('/search/artist/:artist', function(req, res){
+   dis.database().search("artist=" + req.params.artist, function(err, data){
+       res.send(data);
+   }); 
+});
 app.use(express.static('public'));
 app.use(function(req, res, next) {
 res.status(404);

@@ -2,7 +2,7 @@ var React = require("react");
 var SearchComponent = React.createClass({
     _handleSubmit: function(evt){
         evt.preventDefault();
-        console.log($("#artist").val());
+        this.props.performAlbumSearch($("#artist").val());
     },
     render: function(){
     return (

@@ -3,3 +3,7 @@ data
 config.js
 .DS_Store
 app/CowClicker.jsx
+
+app/secret.js
+
+secret.js

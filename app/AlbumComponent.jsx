@@ -1,11 +1,13 @@
 var React = require("react");
-var data = require('./data.js');
 var AlbumComponent = React.createClass({
 
     render: function(){
+        console.log(this.props);
         return (
             <div>
-         {JSON.stringify(data, null, 2) }
+         {this.props.currentAlbumData.artist}
+         {this.props.currentAlbumData.title}
+         {this.props.currentAlbumData.year}
         </div>
         );
     }
