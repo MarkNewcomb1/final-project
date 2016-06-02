@@ -18,7 +18,8 @@ var VinylApp = React.createClass({
 	},
     performAlbumSearch: function(search) {
         $.get('/search/artist/' + search, function(data){
-            console.log(data);
+            document.getElementById("album").innerHTML =
+"<img src='" + data.results[1].thumb + "' /> " + data.results[1].title; 
         });
     },
 	getAlbums: function() {
