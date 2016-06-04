@@ -6,7 +6,7 @@ var VinylApp = React.createClass({
         return <div><h1>{this.state.currentAlbumData.title}</h1>
         <SearchComponent performAlbumSearch={this.performAlbumSearch}/>
        <AlbumComponent 
-           currentAlbumData={this.state.currentAlbumData}/>
+           currentAlbumData= {this.state.currentAlbumData} />
         </div>;
 	},
 	getInitialState: function(){
@@ -17,9 +17,13 @@ var VinylApp = React.createClass({
 		return stateObj;
 	},
     performAlbumSearch: function(search) {
+        var that = this;
         $.get('/search/artist/' + search, function(data){
-            document.getElementById("album").innerHTML =
-"<img src='" + data.results[1].thumb + "' /> " + data.results[1].title; 
+            console.log("Here's the results: "); 
+            console.log(data);
+            that.setState({
+                currentAlbumData: data.results[0]
+            })
         });
     },
 	getAlbums: function() {
