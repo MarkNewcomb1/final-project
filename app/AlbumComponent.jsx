@@ -2,15 +2,15 @@ var React = require("react");
 var AlbumComponent = React.createClass({
 
     render: function(){
-        if (!this.props.currentAlbumData){
+        if (!this.props.data){
             return null;
         }
         return (
             <div>
-         {this.props.currentAlbumData.artist}
-         {this.props.currentAlbumData.title}
-         {this.props.currentAlbumData.year}
-         <img src={this.props.currentAlbumData.thumb}/>
+         {this.props.data.artist}
+         {this.props.data.title}
+         {this.props.data.year}
+         <img src={this.props.data.thumb}/>
         </div>
         );
     }

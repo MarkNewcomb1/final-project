@@ -1,4 +1,5 @@
 var React = require("react");
+//first line of render is usually a good place to console.log
 var SearchComponent = require('./SearchComponent.jsx');
 var AlbumComponent = require('./AlbumComponent.jsx');
 var AlbumsComponent = require('./AlbumsComponent.jsx');
@@ -6,15 +7,14 @@ var VinylApp = React.createClass({
 	render: function() {
         return <div><h1>{this.state.currentAlbumData.title}</h1>
         <SearchComponent performAlbumSearch={this.performAlbumSearch}/>
-       <AlbumComponent 
-           currentAlbumData= {this.state.currentAlbumData} />
-        <AlbumsComponent currentAlbumData= {this.state.currentAlbumData}/>
+        <AlbumsComponent ada={this.state.ada} />
         </div>;
 	},
 	getInitialState: function(){
 		var stateObj = {
 			albums: [],
-            currentAlbumData: ""
+            currentAlbumData: "",
+            ada: []
 		};
 		return stateObj;
 	},
@@ -24,7 +24,8 @@ var VinylApp = React.createClass({
             console.log("Here's the results: "); 
             console.log(data);
             that.setState({
-                currentAlbumData: data.results[0]
+                currentAlbumData: data.results[0],
+                ada: data.results
             })
 
         });
