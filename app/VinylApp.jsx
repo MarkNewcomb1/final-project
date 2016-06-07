@@ -4,9 +4,11 @@ var SearchComponent = require('./SearchComponent.jsx');
 var AlbumComponent = require('./AlbumComponent.jsx');
 var AlbumsComponent = require('./AlbumsComponent.jsx');
 var CollectionComponent = require('./CollectionComponent.jsx');
+var Link = require('react-router').Link;
 var VinylApp = React.createClass({
 	render: function() {
         return <div><h1>{this.state.currentAlbumData.title}</h1>
+        <Link to="/collection">My Collection</Link>
         <SearchComponent performAlbumSearch={this.performAlbumSearch}/>
         <AlbumsComponent ada={this.state.ada} />
         </div>;

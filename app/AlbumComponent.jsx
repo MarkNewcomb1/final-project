@@ -2,6 +2,7 @@ var React = require("react");
 var AlbumComponent = React.createClass({
 _handleClick: function(evt){
         evt.preventDefault();
+    //post jquery props.data.id to collection, push into array
         console.log("You clicked!");
     },
     render: function(){
