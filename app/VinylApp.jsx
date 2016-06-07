@@ -3,6 +3,7 @@ var React = require("react");
 var SearchComponent = require('./SearchComponent.jsx');
 var AlbumComponent = require('./AlbumComponent.jsx');
 var AlbumsComponent = require('./AlbumsComponent.jsx');
+var CollectionComponent = require('./CollectionComponent.jsx');
 var VinylApp = React.createClass({
 	render: function() {
         return <div><h1>{this.state.currentAlbumData.title}</h1>

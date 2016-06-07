@@ -1,12 +1,15 @@
 var React = require("react");
 var AlbumComponent = React.createClass({
-
+_handleClick: function(evt){
+        evt.preventDefault();
+        console.log("You clicked!");
+    },
     render: function(){
         if (!this.props.data){
             return null;
         }
         return (
-            <figure>
+            <figure onClick={this._handleClick}>
          <img src={this.props.data.thumb}/>
          <figcaption>
          <span class="title">{this.props.data.artist}
