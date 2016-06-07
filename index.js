@@ -83,7 +83,7 @@ var Login = require("./login.js");
 app.get("/login", Login.getLogin);
 app.post("/login", Login.postLogin);
 app.get('/search/artist/:artist', function(req, res){
-   dis.database().search("artist=" + req.params.artist, function(err, data){
+   dis.database().search(req.params.artist, {type: "all"}, function(err, data){
        res.send(data);
    }); 
 });

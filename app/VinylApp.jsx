@@ -21,7 +21,7 @@ var VinylApp = React.createClass({
 	},
     performAlbumSearch: function(search) {
         var that = this;
-        $.get('/search/artist/' + search, function(data){
+        $.get('/search/artist/' + encodeURIComponent(search), function(data){
             console.log("Here's the results: "); 
             console.log(data);
             that.setState({
