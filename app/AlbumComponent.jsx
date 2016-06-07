@@ -6,12 +6,14 @@ var AlbumComponent = React.createClass({
             return null;
         }
         return (
-            <div>
-         {this.props.data.artist}
-         {this.props.data.title}
-         {this.props.data.year}
+            <figure>
          <img src={this.props.data.thumb}/>
-        </div>
+         <figcaption>
+         <span class="title">{this.props.data.artist}
+         {this.props.data.title}</span>&nbsp;
+         {this.props.data.year}
+         </figcaption>
+        </figure>
         );
     }
 });
