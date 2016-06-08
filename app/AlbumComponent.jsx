@@ -15,7 +15,7 @@ _handleClick: function(evt){
         }
         return (
         <figure onClick={this._handleClick}>
-        {this.props.data.id}
+        {this.props.data.release_id}
          <img src={this.props.data.thumb}/>
          <figcaption>
          <span class="title">{this.props.data.artist}
