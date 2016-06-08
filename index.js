@@ -100,7 +100,7 @@
     app.post("/login", Login.postLogin);
     app.get('/search/artist/:artist', function (req, res) {
         dis.database().search(req.params.artist, {
-            type: "all"
+            type: "release"
         }, function (err, data) {
             res.send(data);
         });
