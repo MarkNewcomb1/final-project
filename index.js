@@ -54,13 +54,21 @@
 
     app.post("/collection", function (req, res) {
         console.log(req.body.album);
-        albumIds.push(req.body.album);
-        res.send('ok');
+        if(albumIds.indexOf(req.body.album) == -1){
+            albumIds.push(req.body.album);
+            res.send('ok');
+        } else {
+            var index = albumIds.indexOf(req.body.album);
+            albumIds.splice(index, 1);
+            res.send('ok');
+        }
     });
 
     app.get("/collection", function (req, res) {
         var albumsArr = [];
-        
+        if (albumIds.length == 0){
+            res.send("[]");
+        }
         for (var i = 0; i < albumIds.length; i++) {
             console.log(albumIds[i]);
             dis.database().getRelease(albumIds[i], function (err, data) {

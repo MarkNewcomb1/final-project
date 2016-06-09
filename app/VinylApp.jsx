@@ -10,7 +10,7 @@ var VinylApp = React.createClass({
         return <div><h1>{this.state.currentAlbumData.title}</h1>
         <Link className="link" to="/collection">My Collection</Link>
         <SearchComponent performAlbumSearch={this.performAlbumSearch}/>
-        <AlbumsComponent ada={this.state.ada} />
+        <AlbumsComponent ada={this.state.ada} refresh={function(){}}/>
         </div>;
 	},
 	getInitialState: function(){

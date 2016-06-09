@@ -7,10 +7,11 @@ var CollectionComponent = React.createClass({
     
     //set array into state here and have render bound to that state
     render: function() {
+        console.log(this._getAlbumsFromServer);
         return (
             <div>
               <Link className="link" to="/">Back to Search</Link>
-               <AlbumsComponent ada={this.state.albums} />
+               <AlbumsComponent ada={this.state.albums} refresh={this._getAlbumsFromServer} />
             </div>
         )
     },
@@ -20,12 +21,16 @@ var CollectionComponent = React.createClass({
 		};
 		return obj;
 	},
-componentDidMount: function() {
-    this.serverRequest = $.get("/collection", function (data) {
+    _getAlbumsFromServer: function(){
+        console.log("in collection component");
+         this.serverRequest = $.get("/collection", function (data) {
       this.setState({
         albums: JSON.parse(data)
       });
     }.bind(this));
-  }
+  },
+componentDidMount: function() {
+   this._getAlbumsFromServer();
+    }
 });
 module.exports = CollectionComponent;
