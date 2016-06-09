@@ -36,9 +36,14 @@ GET/ collection
 
 GET/ search/artist/:artist
 	on submit = connect to discogs, send data
+    
 ---
 ## React Components
+
 *VinylApp - this is the parent component
+
 *AlbumComponent
+
 *AlbumsComponent
+
 *CollectionComponent
