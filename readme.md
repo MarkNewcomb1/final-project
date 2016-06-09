@@ -1,5 +1,5 @@
 # Music Search Using React and Discogs API
-![alt text](https://github.com/MarkNewcomb1/final-project/blob/master/app/css/react.png "Logo React")
+![alt text](https://github.com/MarkNewcomb1/final-project/blob/master/app/css/react.png =300x300 "Logo React")
 **Overview:** The idea here is that, despite there being lots of apps for tracking digital media, there seems to be very little in the way of keeping track of what *physical* media one owns, e.g. vinyl. This app will allow you to keep track of the different physical albums you own, in case you find yourself in a vinyl store and want a mobile reference of all the albums you currently own to take the guesswork out of purchasing further physical media. 
 
 ---
