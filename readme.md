@@ -1,6 +1,7 @@
 # Music Search Using React and Discogs API
 
 **Overview:** The idea here is that, despite there being lots of apps for tracking digital media, there seems to be very little in the way of keeping track of what *physical* media one owns, e.g. vinyl. This app will allow you to keep track of the different physical albums you own, in case you find yourself in a vinyl store and want a mobile reference of all the albums you currently own to take the guesswork out of purchasing further physical media. 
+
 ---
 ## To Install:
 
@@ -10,6 +11,7 @@
 4. type `npm i`
 5. type `gulp && gulp watch || say "it crashed"`
 6. open another terminal and, in the same folder, type `nodemon index.js`
+
 ---
 ## To Use:
 
@@ -19,6 +21,7 @@
 4. You may add as many albums as you wish to your collection. You may search other artists/albums and add them to your collection as well. 
 5. Once you are done adding to your collection, or you otherwise wish to view your collection, click the "My Collection" link towards the top. 
 6. On the "My Collection" page, you will see a list of albums you have added. To delete albums from this collection, simply click on one or more of them. The album will have a green border around it and will disappear. To go back to search, click "Back to Search."
+
 ---
 ## Node Routes
 
@@ -33,3 +36,9 @@ GET/ collection
 
 GET/ search/artist/:artist
 	on submit = connect to discogs, send data
+---
+## React Components
+*VinylApp - this is the parent component
+*AlbumComponent
+*AlbumsComponent
+*CollectionComponent
