@@ -1,0 +1,2806 @@
+{
+        "pagination": {
+        "per_page": 50,
+        "items": 11584,
+        "page": 1,
+        "urls": {
+        "last": "https://api.discogs.com/database/search?q=Eagles&per_page=50&token=&page=200",
+        "next": "https://api.discogs.com/database/search?q=Eagles&per_page=50&token=&page=2"
+        },
+        "pages": 200
+        },
+        "results": [
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 16533,
+        "want": 10857
+        },
+        "catno": "SD-5054",
+        "year": "1972",
+        "id": 59496,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/cHctUOojQJWnhH-NA_HHC2xkI7E=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1615902-1277111878.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Asylum Records",
+        "Asylum Records",
+        "Olympic Studios",
+        "Olympic Studios",
+        "The Mastering Lab",
+        "Atlantic Recording Corporation",
+        "Presswell"
+        ],
+        "master_id": 59496,
+        "type": "master",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "ST-AS-722515 PR",
+        "ST-AS-722516 PR",
+        "ST-AS-722515-E H1 SIDE 1 PR",
+        "ST-AS-722516-E AH PR SIDE 2",
+        "ST-AS-722515-EEE-I-III•H1 SIDE 1 PR D",
+        "ST-AS-722516-DDD-I SIDE 2 PR D",
+        "BMI",
+        "ASCAP",
+        "0598"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles/master/59496",
+        "cover_image": "https://img.discogs.com/zvc0htKDIXg5fiEiNpGAvA6nZRg=/fit-in/600x607/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1615902-1277111878.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/masters/59496"
+        },
+        {
+        "thumb": "https://img.discogs.com/Wpr3Zwzrj-GJskxtHJPKzZNV8vw=/150x150/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-255680-1448271650-8982.jpeg.jpg",
+        "title": "Eagles",
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "master_url": null,
+        "uri": "/artist/255680-Eagles",
+        "cover_image": "https://img.discogs.com/Uns_yVcMGnFDtGeTLvJEc6vrbSE=/600x376/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-255680-1448271650-8982.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/artists/255680",
+        "master_id": null,
+        "type": "artist",
+        "id": 255680
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 15295,
+        "want": 3191
+        },
+        "catno": "BB-705",
+        "year": "1980",
+        "id": 59525,
+        "style": [
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/0wItG3jMjzI_9G-QEl4cF2xevoA=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-808486-1371963211-9934.jpeg.jpg",
+        "title": "Eagles - Eagles Live",
+        "label": [
+        "Asylum Records",
+        "Elektra/Asylum/Nonesuch Records",
+        "Elektra/Asylum Records",
+        "Elektra/Asylum Records",
+        "Specialty Records Corporation",
+        "Santa Monica Civic Auditorium",
+        "Long Beach Arena",
+        "The Forum, Los Angeles",
+        "Bayshore Recording Studios",
+        "Sterling Sound",
+        "Europadisk"
+        ],
+        "master_id": 59525,
+        "type": "master",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "BB 705 A ED SP TJ IS IT ILLEGAL TO YELL MOVIE IN A FIREHOUSE?",
+        "BB 705 B SP \"HELLO FEDERAL?...SHIP IT!!\" 1-1 SM2-1",
+        "BB 705 C 7 ED SP 0-2 SM4-2 \"NOT TONIGHT, THANKS...",
+        "BB 705 D 4 ED SP 0-1 SM1-1 ...I'VE GOT TO REST UP FOR MY MONSTER.\"",
+        "BB 705 A  5 ED SP  TJ   IS IT ILLEGAL TO YELL \"MOVIE\" IN A FIREHOUSE?  0 - 1SM1 - 2",
+        "BB 705 B  SP  \"HELLO FEDERAL?...SHIP IT!! \"  1 - 1SM1 - 1",
+        "BB 705 C  7 ED SP   \"NOT TONIGHT, THANKS...  0 - 1Sm3 - 2",
+        "BB 705 D  4 ED SP   0 - 1Sm1 - 3  ...I'VE GOTTA REST UP FOR MY MONSTER.\"",
+        "STERLING (EDP)",
+        "STERLING SRC",
+        "STERLING (EDP)",
+        "(EDP) STERLING",
+        "ASCAP"
+        ],
+        "master_url": "https://api.discogs.com/masters/59525",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles-Live/master/59525",
+        "cover_image": "https://img.discogs.com/6ibaalyrZiQvVDpnkcAqr0v1P5M=/fit-in/600x597/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-808486-1371963211-9934.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/masters/59525"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 4353,
+        "want": 870
+        },
+        "catno": "SD-5054",
+        "year": "1972",
+        "format_quantity": 1,
+        "id": 1615902,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/cHctUOojQJWnhH-NA_HHC2xkI7E=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1615902-1277111878.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Asylum Records",
+        "Asylum Records",
+        "Olympic Studios",
+        "Olympic Studios",
+        "The Mastering Lab",
+        "Atlantic Recording Corporation",
+        "Presswell"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "ST-AS-722515 PR",
+        "ST-AS-722516 PR",
+        "ST-AS-722515-E H1 SIDE 1 PR",
+        "ST-AS-722516-E AH PR SIDE 2",
+        "ST-AS-722515-EEE-I-III•H1 SIDE 1 PR D",
+        "ST-AS-722516-DDD-I SIDE 2 PR D",
+        "BMI",
+        "ASCAP",
+        "0598"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles/release/1615902",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "text": "Presswell Pressing, White Labels",
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/zvc0htKDIXg5fiEiNpGAvA6nZRg=/fit-in/600x607/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1615902-1277111878.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/1615902"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 8987,
+        "want": 2074
+        },
+        "catno": "E1-60205",
+        "year": "1982",
+        "id": 59530,
+        "style": [
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/_ovzh137cVjg_pGheLuHtbASKtM=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2167826-1278196458.jpeg.jpg",
+        "title": "Eagles - Eagles Greatest Hits Volume 2",
+        "label": [
+        "Asylum Records"
+        ],
+        "master_id": 59530,
+        "type": "master",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Compilation"
+        ],
+        "barcode": [
+        "Side 1: E1-60205A GIA CBS.GA. Chet",
+        "Side 2: E1-60205B GIA C.B.S.GA. Chet",
+        "Side 1: Lenny And Leon Say...",
+        "Side 2: \"Everything Put Together Falls Apart.\""
+        ],
+        "master_url": "https://api.discogs.com/masters/59530",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles-Greatest-Hits-Volume-2/master/59530",
+        "cover_image": "https://img.discogs.com/bEi65VUQxj80yvckPBW0T5qLgDs=/fit-in/455x459/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2167826-1278196458.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/masters/59530"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 5479,
+        "want": 290
+        },
+        "catno": "BB-705",
+        "year": "1980",
+        "format_quantity": 2,
+        "id": 808486,
+        "style": [
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/0wItG3jMjzI_9G-QEl4cF2xevoA=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-808486-1371963211-9934.jpeg.jpg",
+        "title": "Eagles - Eagles Live",
+        "label": [
+        "Asylum Records",
+        "Elektra/Asylum/Nonesuch Records",
+        "Elektra/Asylum Records",
+        "Elektra/Asylum Records",
+        "Specialty Records Corporation",
+        "Santa Monica Civic Auditorium",
+        "Long Beach Arena",
+        "The Forum, Los Angeles",
+        "Bayshore Recording Studios",
+        "Sterling Sound",
+        "Europadisk"
+        ],
+        "master_id": 59525,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "BB 705 A ED SP TJ IS IT ILLEGAL TO YELL MOVIE IN A FIREHOUSE?",
+        "BB 705 B SP \"HELLO FEDERAL?...SHIP IT!!\" 1-1 SM2-1",
+        "BB 705 C 7 ED SP 0-2 SM4-2 \"NOT TONIGHT, THANKS...",
+        "BB 705 D 4 ED SP 0-1 SM1-1 ...I'VE GOT TO REST UP FOR MY MONSTER.\"",
+        "BB 705 A  5 ED SP  TJ   IS IT ILLEGAL TO YELL \"MOVIE\" IN A FIREHOUSE?  0 - 1SM1 - 2",
+        "BB 705 B  SP  \"HELLO FEDERAL?...SHIP IT!! \"  1 - 1SM1 - 1",
+        "BB 705 C  7 ED SP   \"NOT TONIGHT, THANKS...  0 - 1Sm3 - 2",
+        "BB 705 D  4 ED SP   0 - 1Sm1 - 3  ...I'VE GOTTA REST UP FOR MY MONSTER.\"",
+        "STERLING (EDP)",
+        "STERLING SRC",
+        "STERLING (EDP)",
+        "(EDP) STERLING",
+        "ASCAP"
+        ],
+        "master_url": "https://api.discogs.com/masters/59525",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles-Live/release/808486",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "text": "SP; Gatefold",
+        "name": "Vinyl",
+        "qty": "2"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/6ibaalyrZiQvVDpnkcAqr0v1P5M=/fit-in/600x597/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-808486-1371963211-9934.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/808486"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 3374,
+        "want": 941
+        },
+        "catno": "EKT 5",
+        "year": "1985",
+        "id": 59536,
+        "style": [
+        "Soft Rock",
+        "Country Rock"
+        ],
+        "thumb": "https://img.discogs.com/el0urgin1SJEFvJq2jVDgsgxng8=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1662123-1247939788.jpeg.jpg",
+        "title": "Eagles - The Best Of Eagles",
+        "label": [
+        "Asylum Records",
+        "Asylum Records",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "WEA Musik GmbH"
+        ],
+        "master_id": 59536,
+        "type": "master",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Compilation"
+        ],
+        "barcode": [
+        "0 75596 03421 0",
+        "GEMA / BIEM",
+        "WE 381"
+        ],
+        "master_url": "https://api.discogs.com/masters/59536",
+        "genre": [
+        "Rock",
+        "Pop"
+        ],
+        "country": "UK & Europe",
+        "uri": "/Eagles-The-Best-Of-Eagles/master/59536",
+        "cover_image": "https://img.discogs.com/xpaKEZDatE2MSOxnqm7jSo4-KkU=/fit-in/481x480/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1662123-1247939788.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/masters/59536"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 692,
+        "want": 149
+        },
+        "catno": "AS 53009",
+        "format_quantity": 1,
+        "id": 1120538,
+        "style": [
+        "Classic Rock",
+        "Country Rock"
+        ],
+        "thumb": "https://img.discogs.com/zSeEmS6hfCHEimrE-HknlkVGPNg=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1120538-1193655092.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Olympic Studios",
+        "Olympic Studios",
+        "The Mastering Lab",
+        "Asylum Records"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "barcode": [
+        "STEMRA",
+        "SYTC 101-A",
+        "SYTC 101-B",
+        "SYTC 101 A-1",
+        "SYTC 101 B-1"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "Netherlands",
+        "uri": "/Eagles-Eagles/release/1120538",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/nGDJi1bljidmQxLkqMrooxExEKg=/fit-in/356x353/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1120538-1193655092.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/1120538"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 697,
+        "want": 283
+        },
+        "catno": "SD-5054",
+        "year": "1972",
+        "format_quantity": 1,
+        "id": 2338177,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/_6l9K0vbsfg-1lS04c_UlTr3gbw=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2338177-1277979498.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Atlantic Recording Corporation",
+        "Asylum Records",
+        "Presswell",
+        "Olympic Studios",
+        "Olympic Studios",
+        "The Mastering Lab",
+        "Benchmark Music",
+        "Kicking Bear Music",
+        "Irving Music",
+        "Jazzbird Music"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "ST-AS-722515 PR",
+        "ST-AS-722516 PR",
+        "ST-AS - 722515 - E H1 SIDE I PR",
+        "ST-AS - 722516 - D SIDE 2 PR",
+        "ST-AS - 722515 - D SIDE I PR",
+        "ST-AS - 722516 - D SIDE 2 PR",
+        "PR",
+        "ASCAP",
+        "BMI"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles/release/2338177",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "text": "Gatefold",
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/tkKpqEZRDDjENGeQEiOyTAq-kng=/fit-in/600x595/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2338177-1277979498.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/2338177"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 600,
+        "want": 131
+        },
+        "catno": "SD-5054",
+        "year": "1973",
+        "format_quantity": 1,
+        "id": 6270212,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/w8TkomY0mnCAGmNkdZLoW_WEEJc=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6270212-1415238100-2248.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Asylum Records"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "ST-AS-722515",
+        "ST-AS-722516",
+        "SD 5054",
+        "SD 5054",
+        "STAS-722515 - AX / CSM  SD 5054  AX-1 - CSM   TML   C12  1",
+        "STAS-722516 - BX / CSM  SD 5054  BX-1 - CSM   TML   A20  1"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles/release/6270212",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/nS1H3KBpPPSXkD2hwJ3OIPQ2APc=/fit-in/600x590/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6270212-1415238100-2248.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/6270212"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 643,
+        "want": 215
+        },
+        "catno": "SYTC 101",
+        "year": "1972",
+        "format_quantity": 1,
+        "id": 1661054,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/SbWCOseIw2Vrf7exO14qTG2Y84E=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1661054-1383980279-2068.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Asylum Records",
+        "The Gramophone Co. Ltd.",
+        "Asylum Records",
+        "Garrod & Lofthouse Ltd.",
+        "Warner Bros. Music",
+        "Kicking Bear",
+        "Rondor Music",
+        "Jazz Bird"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "SIDE A: SYTC 101 A-1",
+        "SIDE B: SYTC 101 B-1",
+        "MCPS",
+        "NCB",
+        "7208"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "UK",
+        "uri": "/Eagles-Eagles/release/1661054",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "text": "Gatefold",
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/eDeVb30BHo3wjw0BAoz7GMCb5CM=/fit-in/600x580/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1661054-1383980279-2068.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/1661054"
+        },
+        {
+        "thumb": "",
+        "title": "Eagles (2)",
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "master_url": null,
+        "uri": "/artist/2044543-Eagles-2",
+        "cover_image": "https://img.discogs.com/374acc515f2226fe5c630b3affee6eb8688fa482/images/spacer.gif",
+        "resource_url": "https://api.discogs.com/artists/2044543",
+        "master_id": null,
+        "type": "artist",
+        "id": 2044543
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 639,
+        "want": 134
+        },
+        "catno": "SD-5054",
+        "year": "1972",
+        "format_quantity": 1,
+        "id": 3275100,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/6zUHDMUlVtUlLvjjnLMLbJ2bcQQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3275100-1381887821-1632.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Asylum Records, Corp.",
+        "WEA Music Of Canada, Ltd.",
+        "WEA Music Of Canada, Ltd.",
+        "Asylum Records",
+        "Asylum Records",
+        "Olympic Studios",
+        "Olympic Studios"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "SD-5054A-1A C2-G̶D 0",
+        "SD-5054B-1A C2-GD 0",
+        "ASCAP",
+        "BMI"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "Canada",
+        "uri": "/Eagles-Eagles/release/3275100",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "text": "Gatefold",
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/p941rPQFqDXpxfW3LEsnUdhSPd8=/fit-in/314x316/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-3275100-1381887821-1632.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/3275100"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 588,
+        "want": 136
+        },
+        "catno": "SD-5054",
+        "year": "1976",
+        "format_quantity": 1,
+        "id": 2326196,
+        "style": [
+        "Country Rock",
+        "Pop Rock"
+        ],
+        "thumb": "https://img.discogs.com/3yvHKLoc5-28LhTgGE0MmMRQ9V8=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2326196-1277113049.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Atlantic Recording Corporation",
+        "Elektra/Asylum/Nonesuch Records",
+        "Asylum Records",
+        "Asylum Records",
+        "Specialty Records Corporation",
+        "Benchmark Music",
+        "Elektra Sound Recorders"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "barcode": [
+        "SD-5054-A SP",
+        "SD-5054-B SP",
+        "SP 5054 A-SP FIRST E ESRTD 5-7-76 SPR SRC ",
+        "SP 5054-B-SP SRC ESRTD 5-7-76 SMITH + GRAHAM INC",
+        "ASCAP"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles/release/2326196",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/-PZgXg1VIzur10vX0DAWqG9Uv8E=/fit-in/600x607/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2326196-1277113049.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/2326196"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 516,
+        "want": 101
+        },
+        "catno": "AS 53 009",
+        "year": "1976",
+        "format_quantity": 1,
+        "id": 6068592,
+        "style": [
+        "Country Rock"
+        ],
+        "thumb": "https://img.discogs.com/3NfhMxWEbujDO5W7pJgZlgonHoE=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6068592-1410252743-6086.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "WEA Musik GmbH"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "barcode": [
+        "GEMA",
+        "LC 2648",
+        "WEA 53009 A  PF",
+        "WEA 53009 B  PF",
+        "Ⓩ"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "Germany",
+        "uri": "/Eagles-Eagles/release/6068592",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/7usQlUt9w3GvXsmox1DiTqdNN-A=/fit-in/598x591/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6068592-1410252743-6086.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/6068592"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 363,
+        "want": 128
+        },
+        "catno": "K 53009",
+        "year": "1975",
+        "format_quantity": 1,
+        "id": 2254462,
+        "style": [
+        "Classic Rock",
+        "Country Rock"
+        ],
+        "thumb": "https://img.discogs.com/gH_E04IJp-2K506wk49ZKRNY4p8=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2254462-1289990217.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "barcode": [
+        "K･53009･A1 (stamped)  ALLEN (etched)",
+        "K･53009･B1 (stamped)  ALLEN (etched)"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "UK",
+        "uri": "/Eagles-Eagles/release/2254462",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/ZTkr00T7cbXXWlxdjVNvJ3VT-68=/fit-in/600x556/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2254462-1289990217.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/2254462"
+        },
+        {
+        "thumb": "",
+        "title": "Eagles Prey",
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "master_url": null,
+        "uri": "/artist/11903-Eagles-Prey",
+        "cover_image": "https://img.discogs.com/374acc515f2226fe5c630b3affee6eb8688fa482/images/spacer.gif",
+        "resource_url": "https://api.discogs.com/artists/11903",
+        "master_id": null,
+        "type": "artist",
+        "id": 11903
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 333,
+        "want": 153
+        },
+        "catno": "1C 062-93 563",
+        "year": "1972",
+        "format_quantity": 1,
+        "id": 3180314,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/bxRF2hdRK_RT2JhArKjDzeygs9Y=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3180314-1319362465.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "93563A-1",
+        "93563B-1",
+        "GEMA",
+        "1C 062-93 563"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "Germany",
+        "uri": "/Eagles-Eagles/release/3180314",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "text": "Gatefold",
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/skHreE7lNSvq0h34zUM5Qpq9f3c=/fit-in/450x455/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-3180314-1319362465.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/3180314"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 293,
+        "want": 118
+        },
+        "catno": "SD-5054",
+        "year": "1972",
+        "format_quantity": 1,
+        "id": 6315204,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/1R_3-EM1eSwzRHLhNVOq-gorPmQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6315204-1416260617-4148.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Asylum Records, Corp.",
+        "Kinney Music Of Canada, Ltd.",
+        "Kinney Music Of Canada, Ltd.",
+        "WEA Music Of Canada, Ltd.",
+        "WEA Music Of Canada, Ltd.",
+        "Asylum Records",
+        "Olympic Studios",
+        "Olympic Studios"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "SD-5054A-1A C2-GD 0",
+        "SD-5054B-1A C2-D 0",
+        "ASCAP",
+        "BMI"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "Canada",
+        "uri": "/Eagles-Eagles/release/6315204",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/3bVHBb5MYqCESxUKYwWOUwtoEQU=/fit-in/600x607/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6315204-1416260617-4148.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/6315204"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 277,
+        "want": 126
+        },
+        "catno": "SD-5054",
+        "year": "1973",
+        "format_quantity": 1,
+        "id": 5494364,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/iFAWv_nfOmzrfacXfOi-g1GGGgk=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5494364-1567839007-2540.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Presswell",
+        "Elektra/Asylum/Nonesuch Records",
+        "Atlantic Recording Corporation",
+        "Asylum Records",
+        "Asylum Records",
+        "The Mastering Lab"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "ST-AS-722515-D Side 1 PR",
+        "ST-AS-722516-D Side 2 PR",
+        "ST-AS-722515-E H7 Side 1 PR",
+        "ST-AS-722515-E Art PR Side 2",
+        "ST-AS-722515-EEE-1 11 H1 SIDE 1  D PR",
+        "SIDE 2 ST-AS-722516-EEE-1 A#  D PR"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles/release/5494364",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "text": "Presswell Pressing",
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/J0lnXr326j3xRZLTTqeV1F_m5L8=/fit-in/600x607/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5494364-1567839007-2540.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/5494364"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 1512,
+        "want": 88
+        },
+        "catno": "AS 62032",
+        "year": "1980",
+        "format_quantity": 2,
+        "id": 833949,
+        "style": [
+        "Classic Rock",
+        "Folk Rock"
+        ],
+        "thumb": "https://img.discogs.com/VdNccQRYkByyLAbmGuCaabxH9RQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-833949-1171838546.jpeg.jpg",
+        "title": "Eagles - Eagles Live",
+        "label": [
+        "Asylum Records",
+        "WEA Musik GmbH",
+        "Sterling Sound",
+        "Tonstudio Pfanz",
+        "Bayshore Recording Studios",
+        "Santa Monica Civic Auditorium",
+        "Long Beach Arena",
+        "The Forum, Los Angeles",
+        "Wally Heider Recording",
+        "Record Plant, Los Angeles"
+        ],
+        "master_id": 59525,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "BB-705-A",
+        "BB-705-B",
+        "BB-705-C",
+        "BB-705-D",
+        "WEA 62032-A3   PF",
+        "WEA 62032-B3   PF",
+        "WEA 62032-C3   PF",
+        "WEA 62032-D   PF",
+        "WEA 62032-A2   PF",
+        "WEA 62032-B3x   PF",
+        "WEA 62032-C2   PF",
+        "WEA 62032-D3   PF",
+        "WEA 62032-A2X PF 127",
+        "WEA 62032-B3 PF 91 \"D\"",
+        "WEA 62032-C PF 43",
+        "WEA 62032-D3 PF 96 D ",
+        "WEA  62032-A² XX PF",
+        "WEA  62032-B² X PF",
+        "WEA  62032-C    PF",
+        "62032-D²    PF",
+        "WEA  62032-A² X PF",
+        "WEA 62032-C3   PF",
+        "WEA 62032-D   PF",
+        "WEA  62032-B³ X PF",
+        "WEA 62032-D³ PF",
+        "LC 2648",
+        "Ⓦ",
+        "WE 322"
+        ],
+        "master_url": "https://api.discogs.com/masters/59525",
+        "genre": [
+        "Rock",
+        "Folk, World, & Country"
+        ],
+        "country": "Germany",
+        "uri": "/Eagles-Eagles-Live/release/833949",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "text": "Gatefold",
+        "name": "Vinyl",
+        "qty": "2"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/OMrqKwBeeFoW170C87oaGzFV-to=/fit-in/600x598/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-833949-1171838546.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/833949"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 321,
+        "want": 121
+        },
+        "catno": "SD 5054",
+        "year": "1975",
+        "format_quantity": 1,
+        "id": 4897247,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/_p4uTitg4SBrN55nk1iRolFdv0o=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-4897247-1379901644-6626.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Asylum Records",
+        "Olympic Studios",
+        "Olympic Studios",
+        "The Mastering Lab",
+        "Asylum Records",
+        "Atlantic Recording Corporation",
+        "Asylum Records",
+        "Elektra Sound Recorders",
+        "Columbia Records Pressing Plant, Santa Maria",
+        "Monarch Record Mfg. Co.",
+        "Monarch Record Mfg. Co."
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "barcode": [
+        "ST-AS-722515",
+        "ST-AS-722516",
+        "SD 5054 A-4 CSM ESR-TD 7-14-75 S",
+        "ST-AS-722516-Fex  AC MR △16982-x  (B) Side 2",
+        "ASCAP",
+        "BMI",
+        "STAS - 722515 - Ax/CSM SD 5054 AX-1-CSM TML",
+        "SD 5054 B-4 CSM ESR SD -1-8-75"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles/release/4897247",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/6_-2oz2WuvBrXc36mtrEOgU1G9Y=/fit-in/600x594/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-4897247-1379901644-6626.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/4897247"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 345,
+        "want": 143
+        },
+        "catno": "SD-5054",
+        "year": "1973",
+        "format_quantity": 1,
+        "id": 5560588,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/u6UnhxtqQzBdDq7rs2zQd07dK8Y=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5560588-1403574093-7154.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Repress"
+        ],
+        "barcode": [
+        "(AR)"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles/release/5560588",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album",
+        "Repress"
+        ],
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/xV1TXXPgHxfJOH0ByHS7cGxDfho=/fit-in/225x225/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5560588-1403574093-7154.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/5560588"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 284,
+        "want": 111
+        },
+        "catno": "RRM1-5054",
+        "year": "2014",
+        "format_quantity": 1,
+        "id": 7760107,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/JQ8loBwLDQfKHDTrPVoCPno06GM=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7760107-1448207875-2861.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Rhino Records",
+        "Olympic Studios",
+        "Olympic Studios",
+        "Warner Strategic Marketing",
+        "Asylum Records",
+        "WEA International Inc.",
+        "Asylum Records",
+        "WEA International Inc."
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "barcode": [
+        "LC 02982",
+        "081227961671",
+        "RRM1-5054-A  22137.1(3)...  BG",
+        "96606 1A",
+        "RRM1-5054-B  22137.2(3)...  BG",
+        "96606 1B"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "Europe",
+        "uri": "/Eagles-Eagles/release/7760107",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "text": "180 Gram",
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/_8kd5op0IqjQFfScDiO5AgPzoMk=/fit-in/600x599/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7760107-1448207875-2861.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/7760107"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 182,
+        "want": 42
+        },
+        "catno": "8122 79681 2",
+        "year": "2005",
+        "id": 267825,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/jIkU0HHr9CxXcnDbbKMqubKmnrk=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1911585-1541455861-3435.png.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Warner Strategic Marketing",
+        "Asylum Records",
+        "Asylum Records"
+        ],
+        "master_id": 267825,
+        "type": "master",
+        "format": [
+        "CD",
+        "Album",
+        "CD",
+        "Album",
+        "CD",
+        "Album",
+        "CD",
+        "Album",
+        "CD",
+        "Album",
+        "CD",
+        "Album",
+        "CD",
+        "Album",
+        "CD",
+        "Single",
+        "Box Set",
+        "Limited Edition",
+        "Compilation"
+        ],
+        "barcode": [
+        "0 81227 96812 0",
+        "GEMA/BIEM",
+        "LC 2828",
+        "LC 00192",
+        "SD-5054",
+        "SD-5068",
+        "7E-1004",
+        "7E-1039",
+        "7E-1084",
+        "5E-508",
+        "BB-705",
+        "E-45555",
+        "8122-79681-2",
+        "8122796812"
+        ],
+        "master_url": "https://api.discogs.com/masters/267825",
+        "genre": [
+        "Rock"
+        ],
+        "country": "Europe",
+        "uri": "/Eagles-Eagles/master/267825",
+        "cover_image": "https://img.discogs.com/Su1dR654HO6MN-rnreedicV2zlc=/fit-in/600x603/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1911585-1541455861-3435.png.jpg",
+        "resource_url": "https://api.discogs.com/masters/267825"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 294,
+        "want": 95
+        },
+        "catno": "7559-60623-2",
+        "year": "2000",
+        "format_quantity": 1,
+        "id": 1902711,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/bVAAZlvFoxitDPh9r7lEISe5CHg=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1902711-1251308920.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Elektra/Asylum Records",
+        "Elektra/Asylum Records",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "Warner Music Manufacturing Europe",
+        "Warner Music Manufacturing Europe",
+        "Olympic Studios",
+        "Olympic Studios",
+        "The Mastering Lab",
+        "Atlantic Studios"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Remastered"
+        ],
+        "barcode": [
+        "0 7559-60623-2 9",
+        "075596062329",
+        "GEMA/BIEM",
+        "LC2648",
+        "France: WE 835",
+        "755960623-2.3 06/00",
+        "IFPI L011",
+        "IFPI 0511",
+        "755960623-2.3 06/00",
+        "IFPI L011",
+        "IFPI 05E1",
+        "755960623-2.4 V01 FTE",
+        "IFPI L016",
+        "IFPI 057S",
+        "755960623-2.3 06/00",
+        "IFPI L011",
+        "IFPI 05M9"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "Europe",
+        "uri": "/Eagles-Eagles/release/1902711",
+        "formats": [
+        {
+        "descriptions": [
+        "Album",
+        "Reissue",
+        "Remastered"
+        ],
+        "name": "CD",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/eWsIKl9fG9k7G8Ttz39aXYhXgUw=/fit-in/600x592/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1902711-1251308920.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/1902711"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 981,
+        "want": 67
+        },
+        "catno": "AS 62 032",
+        "year": "1980",
+        "format_quantity": 2,
+        "id": 2003750,
+        "style": [
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/xSf4bM0cZmtza1BXAdEBAAPLPeg=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2003750-1257959496.jpeg.jpg",
+        "title": "Eagles - Eagles Live",
+        "label": [
+        "Asylum Records",
+        "Asylum Records"
+        ],
+        "master_id": 59525,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "BB-705-A",
+        "BB-705-B",
+        "BB-705-C",
+        "BB-705-D",
+        "Stemra",
+        "62032 A 42C1",
+        "62032 B 42C1",
+        "62032 C 42C1",
+        "62032 D 42C1"
+        ],
+        "master_url": "https://api.discogs.com/masters/59525",
+        "genre": [
+        "Rock"
+        ],
+        "country": "Netherlands",
+        "uri": "/Eagles-Eagles-Live/release/2003750",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "text": "Gatefold",
+        "name": "Vinyl",
+        "qty": "2"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/yAM4v4aTiAYhyBUwM0QTR3-tiXE=/fit-in/600x598/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2003750-1257959496.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/2003750"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 213,
+        "want": 139
+        },
+        "catno": "5C 062-93563",
+        "year": "1972",
+        "format_quantity": 1,
+        "id": 2607077,
+        "style": [
+        "Classic Rock",
+        "Country Rock"
+        ],
+        "thumb": "https://img.discogs.com/_wfnAmjzVd9lwT9eNb2Bd-nQ3tw=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2607077-1424789309-7802.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "STEMRA",
+        "SYTC 101 A-1",
+        "SYTC 101 B-1"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "Netherlands",
+        "uri": "/Eagles-Eagles/release/2607077",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "text": "Gatefold",
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/kstb5urdat3EEv2-VUCoEy4E5eI=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2607077-1424789309-7802.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/2607077"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 201,
+        "want": 174
+        },
+        "catno": "SD-5054",
+        "year": "1972",
+        "format_quantity": 1,
+        "id": 3079955,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/9h5lKDGkiwoIxIvxUH6nhCo3Emo=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3079955-1314748372.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Asylum Records",
+        "Atlantic Recording Corporation",
+        "Asylum Records",
+        "Benchmark Music",
+        "Kicking Bear Music",
+        "Irving Music",
+        "Jazzbird Music",
+        "Monarch Record Mfg. Co.",
+        "Olympic Studios",
+        "The Mastering Lab"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "0598",
+        "ASCAP, BMI",
+        "ST-AS-722515-MO",
+        "ST-AS-722516-MO",
+        "ST-AS-722515-F",
+        "ST-AS-722516-F",
+        "ST-AS-722515-F  EXtrA H7  [AC (in a circle)]  SIDE 1 Δ16982 (3)",
+        "ST-AS-722516-F  [(script) ex]  [AC (in a circle)]  Δ16982-X  SIDE 2",
+        "MR (In a circle)"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles/release/3079955",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "text": "Gatefold",
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/a-O9qTGhmitTkOfjhJ3Q2MdWwIg=/fit-in/600x595/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-3079955-1314748372.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/3079955"
+        },
+        {
+        "thumb": "",
+        "title": "Super Eagles",
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "master_url": null,
+        "uri": "/artist/289169-Super-Eagles",
+        "cover_image": "https://img.discogs.com/374acc515f2226fe5c630b3affee6eb8688fa482/images/spacer.gif",
+        "resource_url": "https://api.discogs.com/artists/289169",
+        "master_id": null,
+        "type": "artist",
+        "id": 289169
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 274,
+        "want": 109
+        },
+        "catno": "K 53009",
+        "year": "1975",
+        "format_quantity": 1,
+        "id": 5759992,
+        "style": [
+        "Classic Rock",
+        "Country Rock"
+        ],
+        "thumb": "https://img.discogs.com/_n22Auu_q3ctY2Ykd8T851hpFpA=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5759992-1401896547-5759.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Asylum Records",
+        "Elektra/Asylum Records",
+        "Elektra/Asylum Records",
+        "Warner Bros. Music",
+        "Rondor Music",
+        "WEA Records Ltd.",
+        "Gothic Print Finishers Ltd.",
+        "Gothic Print Finishers Ltd."
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Repress"
+        ],
+        "barcode": [
+        "K 53009 A1",
+        "K 53009 B1",
+        "ALLEN",
+        "K 53009 A٭",
+        "K 53009 B٭",
+        "(SD 5054)"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "UK",
+        "uri": "/Eagles-Eagles/release/5759992",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album",
+        "Repress"
+        ],
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/VPeTbz1245IahKzMw7RKK--Gw5c=/fit-in/600x597/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5759992-1401896547-5759.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/5759992"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 1004,
+        "want": 72
+        },
+        "catno": "2XBB-705",
+        "year": "1980",
+        "format_quantity": 2,
+        "id": 1360854,
+        "style": [
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/Y4tuxeEnaXxvCrNg0_lgboysk3A=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1360854-1241002146.jpeg.jpg",
+        "title": "Eagles - Eagles Live",
+        "label": [
+        "Asylum Records",
+        "WEA Music Of Canada, Ltd.",
+        "WEA Music Of Canada, Ltd."
+        ],
+        "master_id": 59525,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "CR 2XBB-705-A-1B-2-HZ: ②",
+        "CR 2XBB-705-B  TLC-T OC",
+        "CR 2XBB-705-C-1B-2-HZ:",
+        "CR 2XBB-705-D-1B-2-HZ:   DM",
+        "2XBB-705-A-② TLC-T OC",
+        "2XBB-705-B-#2 TLC-T OC",
+        "2XBB-705-C TLC-T OC",
+        "2XBB-705-D TLC-T OC"
+        ],
+        "master_url": "https://api.discogs.com/masters/59525",
+        "genre": [
+        "Rock"
+        ],
+        "country": "Canada",
+        "uri": "/Eagles-Eagles-Live/release/1360854",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "text": "Gatefold",
+        "name": "Vinyl",
+        "qty": "2"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/MZVRyqIa0l_sIjCG4g7ie5eRAqk=/fit-in/600x590/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1360854-1241002146.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/1360854"
+        },
+        {
+        "thumb": "https://img.discogs.com/S_7LSgUr74pkZil6-Qyt8loUDzM=/150x150/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-246823-1236426733.jpeg.jpg",
+        "title": "Eagles Of Death Metal",
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "master_url": null,
+        "uri": "/artist/246823-Eagles-Of-Death-Metal",
+        "cover_image": "https://img.discogs.com/L_5Y31naCbH6E41YXu8AthJIXV4=/600x398/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-246823-1236426733.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/artists/246823",
+        "master_id": null,
+        "type": "artist",
+        "id": 246823
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 189,
+        "want": 105
+        },
+        "catno": "RRM1-5054",
+        "year": "2015",
+        "format_quantity": 1,
+        "id": 8397804,
+        "style": [
+        "Classic Rock",
+        "Country Rock"
+        ],
+        "thumb": "https://img.discogs.com/aMoRg6Ofdts6YogUEgf9f5DkSXg=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-8397804-1482879737-4346.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "barcode": [
+        "081227961671"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles/release/8397804",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "text": "180 Gram",
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/YOJgpm4vpSbttbd-RY6tW6Xc7yY=/fit-in/600x599/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-8397804-1482879737-4346.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/8397804"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 581,
+        "want": 1762
+        },
+        "catno": "MKT 004",
+        "year": "1985",
+        "id": 954275,
+        "style": [
+        "Italo-Disco"
+        ],
+        "thumb": "https://img.discogs.com/W47S2SvgYGT7kU4ADE4BTwNT9lg=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-314394-1506857623-4890.jpeg.jpg",
+        "title": "Dario Dell'Aere - Eagles In The Night",
+        "label": [
+        "Market Records"
+        ],
+        "master_id": 954275,
+        "type": "master",
+        "format": [
+        "Vinyl",
+        "12\"",
+        "45 RPM"
+        ],
+        "barcode": [],
+        "master_url": "https://api.discogs.com/masters/954275",
+        "genre": [
+        "Electronic"
+        ],
+        "country": "Italy",
+        "uri": "/Dario-DellAere-Eagles-In-The-Night/master/954275",
+        "cover_image": "https://img.discogs.com/hJ80oMPfZIlIWZqyi9Cb6yWIeTk=/fit-in/600x586/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-314394-1506857623-4890.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/masters/954275"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 199,
+        "want": 98
+        },
+        "catno": "5054-2",
+        "year": "1987",
+        "format_quantity": 1,
+        "id": 1903096,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/9AYIHm49c0SAtbZvrd3JsSZI-Fk=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1903096-1251310095.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Elektra/Asylum Records",
+        "WEA International Inc.",
+        "Asylum Records",
+        "Elektra/Asylum Records",
+        "WEA International Inc.",
+        "Asylum Records",
+        "Elektra/Asylum Records",
+        "Benchmark Music",
+        "Kicking Bear Music",
+        "Irving Music",
+        "Jazzbird Music",
+        "Olympic Studios",
+        "Olympic Studios",
+        "WEA Manufacturing Inc.",
+        "Specialty Records Corporation",
+        "The Mastering Lab"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "CD",
+        "Album",
+        "Reissue"
+        ],
+        "barcode": [
+        "0 7559-60623-2 9",
+        "2 5054-2 RE-1 SRC-03",
+        "2 5054-2 RE-1 SRC+02 M1S6",
+        "2 5054-2 RE-1 SRC-03 M3S9"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles/release/1903096",
+        "formats": [
+        {
+        "descriptions": [
+        "Album",
+        "Reissue"
+        ],
+        "name": "CD",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/kxL_qgKWJcGQbttExECsXo3-sVU=/fit-in/600x585/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1903096-1251310095.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/1903096"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 188,
+        "want": 107
+        },
+        "catno": "W 53009",
+        "year": "1977",
+        "format_quantity": 1,
+        "id": 1965509,
+        "style": [
+        "Classic Rock",
+        "Country Rock"
+        ],
+        "thumb": "https://img.discogs.com/zQy05dz7zCudBqdUxhxPbxHJzeY=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1965509-1416682806-6405.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "WEA Italiana S.p.A.",
+        "WEA Italiana S.p.A.",
+        "CGD Pressing Plant"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "barcode": [
+        "59 W 5054 º 1L [cgd] 13 7 77 P.V.",
+        "59 W 5054 º 2L [cgd] 13 7 77 P.V."
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "Italy",
+        "uri": "/Eagles-Eagles/release/1965509",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/moNq4TSJN9jrh6vA_mqzMhoOyUM=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1965509-1416682806-6405.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/1965509"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 187,
+        "want": 110
+        },
+        "catno": "SD 5054",
+        "year": "1974",
+        "format_quantity": 1,
+        "id": 2656716,
+        "style": [
+        "Country Rock",
+        "Pop Rock"
+        ],
+        "thumb": "https://img.discogs.com/4T7LZGiUR-IRN4oc6PDTnNL_0A8=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2656716-1568110691-7474.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "WEA Records Pty. Limited",
+        "WEA Records Pty. Limited",
+        "WEA Records Pty. Limited",
+        "WEA Records Pty. Limited"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Stereo"
+        ],
+        "barcode": [
+        "MX174234",
+        "MX174235",
+        "A MX174234 SD5054-1",
+        "A MX174235 SD5054-2"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "Australia",
+        "uri": "/Eagles-Eagles/release/2656716",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album",
+        "Stereo"
+        ],
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/6FyY_vTBOUQ6R8AdWwMl1nLuYzA=/fit-in/600x612/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2656716-1568110691-7474.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/2656716"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 121,
+        "want": 113
+        },
+        "catno": "SD-5054",
+        "year": "1973",
+        "format_quantity": 1,
+        "id": 6241279,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/_iUyVXBIuj5iyuaTrmY1LtBK-gg=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6241279-1418602380-4400.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "PRC Recording Company, Richmond, IN"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "ST-AS-722515RI",
+        "ST-AS-722516RI"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles/release/6241279",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "text": "PRC-Richmond Pressing",
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/T3BJiNrxZBAs1x9C1uJlgBe1ZLM=/fit-in/314x316/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6241279-1418602380-4400.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/6241279"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 1814,
+        "want": 385
+        },
+        "catno": "9548-32375-2",
+        "year": "1994",
+        "id": 60678,
+        "style": [
+        "Country Rock",
+        "Pop Rock"
+        ],
+        "thumb": "https://img.discogs.com/mtV-jpw8WfPyC_HRjB_kcvkAo4s=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-380090-1223579051.jpeg.jpg",
+        "title": "Eagles - The Very Best Of The Eagles",
+        "label": [
+        "Elektra",
+        "Warner Music Manufacturing Europe",
+        "Elektra Entertainment",
+        "Elektra Entertainment",
+        "WEA International Inc.",
+        "WEA International Inc."
+        ],
+        "master_id": 60678,
+        "type": "master",
+        "format": [
+        "CD",
+        "Compilation"
+        ],
+        "barcode": [
+        "0 9548-32375-2 4",
+        "095483237524",
+        "LC 0192",
+        "GEMA/BIEM",
+        "EW 851",
+        "954832375-2.2 WME",
+        "IFPI L011",
+        "IFPI 0617",
+        "IFPI 05Z8",
+        "IFPI 0610",
+        "IFPI 0591",
+        "IFPI 0605",
+        "IFPI 0511"
+        ],
+        "master_url": "https://api.discogs.com/masters/60678",
+        "genre": [
+        "Rock"
+        ],
+        "country": "Europe",
+        "uri": "/Eagles-The-Very-Best-Of-The-Eagles/master/60678",
+        "cover_image": "https://img.discogs.com/pNWv4olsHvO1-WeZhyGd92j7bWg=/fit-in/599x605/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-380090-1223579051.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/masters/60678"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 159,
+        "want": 115
+        },
+        "catno": "SD-5054",
+        "year": "1972",
+        "format_quantity": 1,
+        "id": 8036767,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/rtOvNgw_l1WrR2pPcYXP5gWr6Gk=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-8036767-1453919969-7134.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Olympic Studios",
+        "Olympic Studios",
+        "The Mastering Lab",
+        "PRC Recording Company, Richmond, IN",
+        "Atlantic Recording Corporation",
+        "Asylum Records",
+        "Asylum Records"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "SD 5054",
+        "(ST-AS-722515RI)",
+        "(ST-AS-722516RI)",
+        "ST-AS-722515-D DD-1 SIDE 1  PR D",
+        "ST-AS-722516-D DD-1 - 11 SIDE 2  PR D"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles/release/8036767",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "text": "First issue label (RI)",
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/6POLoNDH6dijT40aQ_ceB3APvAk=/fit-in/600x607/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-8036767-1453919969-7134.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/8036767"
+        },
+        {
+        "thumb": "https://img.discogs.com/08multSngkG-ZREwK0pyaXVBRFI=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/L-161685-1468794096-4847.jpeg.jpg",
+        "title": "Eagles Recording Company",
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "master_url": null,
+        "uri": "/label/161685-Eagles-Recording-Company",
+        "cover_image": "https://img.discogs.com/u5fBnwuwCN8hXwQGo5cJwb3u9SU=/fit-in/207x151/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/L-161685-1468794096-4847.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/labels/161685",
+        "master_id": null,
+        "type": "label",
+        "id": 161685
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 186,
+        "want": 89
+        },
+        "catno": "7559-60623-2",
+        "year": "1990",
+        "format_quantity": 1,
+        "id": 1902679,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/cqJsxhpW1zL_IVLhACFSPqYzURo=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1902679-1251289627.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Record Service Alsdorf"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "CD",
+        "Album",
+        "Reissue"
+        ],
+        "barcode": [
+        "0 7559-60623-2 9",
+        "GEMA/BIEM",
+        "LC 2648",
+        "LC 2846",
+        "WE 835",
+        "755960623-2 RSA-",
+        "[warner logo] 755960623-2.2 11/98"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "UK & Europe",
+        "uri": "/Eagles-Eagles/release/1902679",
+        "formats": [
+        {
+        "descriptions": [
+        "Album",
+        "Reissue"
+        ],
+        "name": "CD",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/Oul7j_C_okHB8cmK8CQtdqyb8qQ=/fit-in/600x594/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1902679-1251289627.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/1902679"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 1995,
+        "want": 89
+        },
+        "catno": "60205-1",
+        "year": "1982",
+        "format_quantity": 1,
+        "id": 3414718,
+        "style": [],
+        "thumb": "https://img.discogs.com/eJx3dKR3Y_h1ohXsy4OK-FhQZwU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3414718-1331489267.jpeg.jpg",
+        "title": "Eagles - Eagles Greatest Hits Volume 2",
+        "label": [
+        "Asylum Records",
+        "Asylum Records",
+        "Elektra/Asylum Records",
+        "Elektra/Asylum Records",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "Pandora Productions Ltd.",
+        "Elektra/Asylum/Nonesuch Records",
+        "Sterling Sound"
+        ],
+        "master_id": 59530,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Compilation"
+        ],
+        "barcode": [
+        "075596020510",
+        "0 7559-60205-1",
+        "(SP)",
+        "60205 A 1SP 1-3 LENNY AND LEON SAY ···",
+        "60205 B 1SP 1-5 ···\"EVERYTHING PUT TOGETHER FALLS APART.\"",
+        "STERLING"
+        ],
+        "master_url": "https://api.discogs.com/masters/59530",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles-Greatest-Hits-Volume-2/release/3414718",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album",
+        "Compilation"
+        ],
+        "text": "Specialty Records Pressing",
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/kRsdspsWew3ym4gb5OJhmBhB9jY=/fit-in/595x592/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-3414718-1331489267.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/3414718"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 140,
+        "want": 109
+        },
+        "catno": "8122796167",
+        "year": "2014",
+        "format_quantity": 1,
+        "id": 6652465,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/CewdK7rfHfaMsBuE8ylBdwcS9dU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6652465-1558900809-9390.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Olympic Studios",
+        "Olympic Studios",
+        "Warner Strategic Marketing",
+        "Asylum Records",
+        "WEA International Inc.",
+        "Asylum Records",
+        "WEA International Inc."
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "barcode": [
+        "LC 02982",
+        "081227961671"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "Europe",
+        "uri": "/Eagles-Eagles/release/6652465",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "text": "180 Gram",
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/fYpf2JaEjoP9L3TizDPngA6bpS8=/fit-in/600x595/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6652465-1558900809-9390.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/6652465"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 151,
+        "want": 96
+        },
+        "catno": "53 009",
+        "format_quantity": 1,
+        "id": 4445279,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/il-gA2vEjjHXDgB6N9c55t9l9g0=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-4445279-1476529353-5461.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Olympic Studios",
+        "Olympic Studios",
+        "The Mastering Lab",
+        "WEA Filipacchi Music",
+        "Asylum Records",
+        "Asylum Records"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "barcode": [
+        "SACEM SDRM SACD SGDL",
+        "Ⓨ \t",
+        "MPO WEA 53009 A",
+        "MPO WEA 53009 (B)  ST - AS 722516"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "France",
+        "uri": "/Eagles-Eagles/release/4445279",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "text": "First issue label",
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/dKfuno3q08V5iwQiNonqZEIOt4Q=/fit-in/600x596/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-4445279-1476529353-5461.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/4445279"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 92,
+        "want": 114
+        },
+        "catno": "1C 062-93 563",
+        "year": "1972",
+        "format_quantity": 1,
+        "id": 5988554,
+        "style": [
+        "Country Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/AGBh-z6XuwoXGYnZM8cAIyiyqcg=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5988554-1408192234-7423.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "Asylum Records",
+        "Pathé Marconi"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "M6 287680 93563 A 21",
+        "M6 287681  93563 B 21",
+        "SACEM SDRM SACD SGDL",
+        "C 064-93.563 A",
+        "C 064-93.563 B"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "France",
+        "uri": "/Eagles-Eagles/release/5988554",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "text": "Gatefold",
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/KjqqQXn5vmp6OcgoxkdvMQllqPA=/fit-in/600x607/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5988554-1408192234-7423.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/5988554"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 163,
+        "want": 108
+        },
+        "catno": "AS 53 009 (Z)",
+        "format_quantity": 1,
+        "id": 2814215,
+        "style": [
+        "Classic Rock",
+        "Country Rock"
+        ],
+        "thumb": "https://img.discogs.com/2nq2EfbgJJG3tx4NBaWJWzon5rQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2814215-1359645015-1772.jpeg.jpg",
+        "title": "Eagles - Eagles",
+        "label": [
+        "Asylum Records",
+        "WEA Musik GmbH"
+        ],
+        "master_id": 59496,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "barcode": [
+        "GEMA"
+        ],
+        "master_url": "https://api.discogs.com/masters/59496",
+        "genre": [
+        "Rock"
+        ],
+        "country": "Germany",
+        "uri": "/Eagles-Eagles/release/2814215",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album",
+        "Reissue"
+        ],
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/-4gk-1mFDFxVgueAWsEUWsU6t9E=/fit-in/600x607/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2814215-1359645015-1772.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/2814215"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 711,
+        "want": 95
+        },
+        "catno": "K62032",
+        "year": "1980",
+        "format_quantity": 2,
+        "id": 456061,
+        "style": [
+        "Pop Rock",
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/z6_dbNJtk4DamZMvBbrEctEiRYc=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-456061-1338914387-7977.jpeg.jpg",
+        "title": "Eagles - Eagles Live",
+        "label": [
+        "Asylum Records",
+        "Asylum Records",
+        "Asylum Records",
+        "Warner Communications",
+        "Asylum Records",
+        "Elektra/Asylum Records",
+        "Pandora Productions",
+        "WEA Records Ltd.",
+        "Warner Bros. Music Ltd.",
+        "Rondor Music (London) Ltd.",
+        "Wally Heider Recording",
+        "Record Plant Mobile Studio",
+        "Santa Monica Civic Auditorium",
+        "The Forum, Los Angeles",
+        "Long Beach Arena",
+        "Bayshore Recording Studios",
+        "Strawberry Mastering",
+        "Sterling Sound",
+        "Orlake Records"
+        ],
+        "master_id": 59525,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+        ],
+        "barcode": [
+        "K+62032+A  STRAWBERRY",
+        "K+62032+B  STRAWBERRY",
+        "K+62032+C  STRAWBERRY",
+        "K+62032+D STRAWBERRY",
+        "K+62032+A2 C OR  ",
+        "K+62032+B2 OR  ",
+        "K+62032+C2  ",
+        "K+62032+D2 OR  ",
+        "W - 30 K+62032+A2 OR",
+        "W - 11 K+62032+B",
+        "W - 38 K+62032+C2",
+        "W - 10 K+62032+D OR",
+        "STRAWBERRY",
+        "K 62032 A*",
+        "K 62032 B*",
+        "K 62032 C*",
+        "K 62032 D*"
+        ],
+        "master_url": "https://api.discogs.com/masters/59525",
+        "genre": [
+        "Rock"
+        ],
+        "country": "UK",
+        "uri": "/Eagles-Eagles-Live/release/456061",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album"
+        ],
+        "name": "Vinyl",
+        "qty": "2"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/bGROSVH-XX1JXWLIHBpJX98kISA=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-456061-1338914387-7977.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/456061"
+        },
+        {
+        "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+        },
+        "community": {
+        "have": 1676,
+        "want": 231
+        },
+        "catno": "E1-60205",
+        "year": "1982",
+        "format_quantity": 1,
+        "id": 2167826,
+        "style": [
+        "Classic Rock"
+        ],
+        "thumb": "https://img.discogs.com/_ovzh137cVjg_pGheLuHtbASKtM=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2167826-1278196458.jpeg.jpg",
+        "title": "Eagles - Eagles Greatest Hits Volume 2",
+        "label": [
+        "Asylum Records"
+        ],
+        "master_id": 59530,
+        "type": "release",
+        "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Compilation"
+        ],
+        "barcode": [
+        "Side 1: E1-60205A GIA CBS.GA. Chet",
+        "Side 2: E1-60205B GIA C.B.S.GA. Chet",
+        "Side 1: Lenny And Leon Say...",
+        "Side 2: \"Everything Put Together Falls Apart.\""
+        ],
+        "master_url": "https://api.discogs.com/masters/59530",
+        "genre": [
+        "Rock"
+        ],
+        "country": "US",
+        "uri": "/Eagles-Eagles-Greatest-Hits-Volume-2/release/2167826",
+        "formats": [
+        {
+        "descriptions": [
+        "LP",
+        "Album",
+        "Compilation"
+        ],
+        "name": "Vinyl",
+        "qty": "1"
+        }
+        ],
+        "cover_image": "https://img.discogs.com/bEi65VUQxj80yvckPBW0T5qLgDs=/fit-in/455x459/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2167826-1278196458.jpeg.jpg",
+        "resource_url": "https://api.discogs.com/releases/2167826"
+        }
+        ]
+        }

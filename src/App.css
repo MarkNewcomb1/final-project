@@ -1,0 +1,23 @@
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+	.main-nav {
+    display: flex;
+    justify-content: center;
+	}
+}
+
+.App {
+  text-align: center;
+}
+
+input[type="text"], 
+input[type="submit"] {
+  font-size: large;
+}
+
+input[type="text"] {
+  margin-right: 10px;
+}

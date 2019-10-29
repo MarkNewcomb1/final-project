@@ -1,49 +1,68 @@
-# Music Search Using React and Discogs API
-![alt text](https://github.com/MarkNewcomb1/final-project/blob/master/app/css/react.png "Logo React")
-**Overview:** The idea here is that, despite there being lots of apps for tracking digital media, there seems to be very little in the way of keeping track of what *physical* media one owns, e.g. vinyl. This app will allow you to keep track of the different physical albums you own, in case you find yourself in a vinyl store and want a mobile reference of all the albums you currently own to take the guesswork out of purchasing further physical media. 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
-## To Install:
+## Available Scripts
 
-1. in the root of the repository's folder, create a config.js file and type `module.exports = {secret: "whatever your secret key is"};`
-2. Also in the root, create a file called secret.js with your Discogs API key that you'll need. Sign up with Discogs to get this. Once you have it, type the following into secret.js, with "whatever" being your key: `module.exports = { APIKey: "whatever" };`
-3. Open a terminal window. With node and gulp already set up on your machine, cd into the repository's folder
-4. type `npm i`
-5. type `gulp && gulp watch || say "it crashed"`
-6. open another terminal and, in the same folder, type `nodemon index.js`
+In the project directory, you can run:
 
----
-## To Use:
+### `yarn start`
 
-1. Login using the static username and password, which is "mark" and "password"
-2. Type into the search box an artist or album title, and press Return/Enter or click "Let's Go!"
-3. A tiled, responsive display of albums will show up. Click on one once to add it to your collection, which will be indicated by the green border around the album selected. 
-4. You may add as many albums as you wish to your collection. You may search other artists/albums and add them to your collection as well. 
-5. Once you are done adding to your collection, or you otherwise wish to view your collection, click the "My Collection" link towards the top. 
-6. On the "My Collection" page, you will see a list of albums you have added. To delete albums from this collection, simply click on one or more of them. The album will have a green border around it and will disappear. To go back to search, click "Back to Search."
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
----
-## Node Routes
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-GET /
-	Login screen, then main page of app
+### `yarn test`
 
-POST /collection
-	Add or remove album from collection
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-GET/ collection
-	View collection
+### `yarn build`
 
-GET/ search/artist/:artist
-	on submit = connect to discogs, send data
-    
----
-## React Components
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-*VinylApp - this is the parent component
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-*AlbumComponent
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-*AlbumsComponent
+### `yarn eject`
 
-*CollectionComponent
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
