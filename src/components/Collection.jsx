@@ -6,13 +6,14 @@ export default function Collection(props) {
             <h1>Collection</h1>
             <div className="flex-container">
             {props.collection.map((album) => {
-                return (<Album 
+                return (<Album
                     key={album.id}
                     id={album.id}
                     thumb={album.thumb}
                     artist={album.artist}
                     title={album.title}
                     year={album.year}
+                    inCollection={true}
                     removeFromCollection={props.removeFromCollection}
                     />)
             })}
