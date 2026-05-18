@@ -41,6 +41,16 @@ No devDependencies are declared (CRA bundles everything internally).
 
 ```
 final-project/
+├── backend/
+│   ├── .env.example        # copy to .env and fill in DATABASE_URL
+│   ├── .gitignore          # excludes node_modules/ and .env
+│   ├── package.json
+│   ├── server.js           # Express entry point; listens on PORT (default 3001)
+│   ├── db/
+│   │   ├── index.js        # pg Pool — reads DATABASE_URL from .env
+│   │   └── migration.sql   # CREATE TABLE collection (run once to provision DB)
+│   └── routes/
+│       └── collection.js   # GET / POST / DELETE /collection
 ├── public/
 │   ├── index.html          # HTML shell; title is still CRA default "React App"
 │   ├── manifest.json       # PWA manifest (CRA boilerplate, not customized)
@@ -133,7 +143,7 @@ npm start     # or: yarn start
 
 - **No loading state.** During API fetch there is no spinner or disabled state on the submit button.
 - **No error handling.** Network failures, API rate-limit errors (429), and missing/malformed responses are all silently swallowed.
-- **Collection is not persisted.** Refreshing the page clears the collection entirely (state lives only in `App.js`).
+- **Collection is not persisted.** Refreshing the page clears the collection entirely (state lives only in `App.js`). **Objective:** persist the collection in a database via a dedicated backend service (see Backend Service section below).
 - **Page title is the CRA default** ("React App") — `public/index.html:27`.
 - **`'Varela Round'` font is never loaded.** `base.css:14` declares it as the body font but there is no `@import` or `<link>` for Google Fonts anywhere.
 - **Service worker is dead code.** `serviceWorker.js` is never imported in `index.js`, so it has zero effect.
@@ -156,7 +166,7 @@ npm start     # or: yarn start
 
 ### Medium priority
 
-- **State management / persistence.** Move collection to `localStorage` (or IndexedDB) so it survives a page refresh. A simple custom hook (`useLocalStorage`) is sufficient; no need for Redux/Zustand at this scale.
+- **State management / persistence.** Persist the collection in a database through the dedicated backend service (see Backend Service section). The frontend should call the backend API on add, remove, and initial page load instead of managing collection state locally.
 - **Error + loading states.** Wrap the `hitAPI` fetch in try/catch, track `loading` and `error` in state, and render appropriate UI.
 - **Fix the Album toggle bug.** Pass only the needed album fields to `addToCollection`, and disambiguate the two rendering contexts (search vs. collection) with a prop like `inCollection` rather than relying on whether `addToCollection` is defined.
 - **Load 'Varela Round'.** Add `<link>` to Google Fonts in `public/index.html`, or use a self-hosted font via `@font-face`.
@@ -169,3 +179,38 @@ npm start     # or: yarn start
 - Remove `index.css` and consolidate into `base.css` to eliminate the duplicate `body` declaration.
 - Add Prettier + ESLint config explicitly (CRA includes ESLint internally but it is not surfaced in the repo).
 - Expand the test suite beyond the single smoke test — at minimum test `addToCollection` deduplication logic and the Album toggle behavior.
+
+---
+
+## Backend Service
+
+The collection will be persisted in a database through a dedicated backend service that lives in `backend/` at the project root (sibling to `src/` and `public/`).
+
+### Responsibilities
+
+- Expose a REST API for collection CRUD operations (get all, add, remove).
+- Own the database connection and schema.
+- The React frontend replaces its in-memory collection state with calls to this API.
+
+### Expected API surface
+
+| Method | Path | Description |
+|---|---|---|
+| `GET` | `/collection` | Return all albums in the collection |
+| `POST` | `/collection` | Add an album (body: album fields) |
+| `DELETE` | `/collection/:id` | Remove an album by Discogs ID |
+
+### Tech stack
+
+| Layer | Choice |
+|---|---|
+| Runtime | Node.js |
+| Framework | Express |
+| Database | PostgreSQL |
+| DB driver | `pg` (node-postgres) |
+| Config | `.env` in `backend/` with `DATABASE_URL` (gitignored) |
+
+### Notes
+
+- The migration file is at `backend/db/migration.sql`. Run it once to provision the database: `psql $DATABASE_URL -f db/migration.sql`. Table columns: `id`, `discogs_id`, `title`, `artist`, `year`, `cover_url`, `added_at`.
+- CORS must be configured to allow requests from the React dev server (default `http://localhost:3000`).
