@@ -16,7 +16,7 @@ const MusicApp = (props) => {
                         artist={album.artist}
                         title={album.title}
                         year={album.year}
-                        inCollection={props.collection.some(a => a.id === album.id)}
+                        inCollection={props.collectionIds.has(album.id)}
                         addToCollection={props.addToCollection}
                         removeFromCollection={props.removeFromCollection}
                         />)

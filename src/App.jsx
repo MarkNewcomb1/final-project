@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import './base.css'
 import './App.css'
 import Nav from './components/Nav'
@@ -11,6 +11,8 @@ const BACKEND = 'http://localhost:3001'
 const App = () => {
   const [searchResults, setSearchResults] = useState([])
   const [collection, setCollection] = useState([])
+  const collectionRef = useRef(collection)
+  useEffect(() => { collectionRef.current = collection }, [collection])
 
   useEffect(() => {
     fetch(`${BACKEND}/collection`)
@@ -25,14 +27,14 @@ const App = () => {
       .catch(err => console.error('Failed to load collection:', err))
   }, [])
 
-  const hitAPI = (searchTerm) => {
+  const hitAPI = useCallback((searchTerm) => {
     fetch(`https://api.discogs.com/database/search?q=${searchTerm}&token=${import.meta.env.VITE_DISCOGS_KEY}`)
       .then(res => res.json())
       .then(response => setSearchResults(response.results))
-  }
+  }, [])
 
-  const addToCollection = (album) => {
-    if (collection.some(a => a.id === album.id)) return
+  const addToCollection = useCallback((album) => {
+    if (collectionRef.current.some(a => a.id === album.id)) return
     const [artist, ...titleParts] = (album.title || '').split(' - ')
     const title = titleParts.length ? titleParts.join(' - ') : artist
     fetch(`${BACKEND}/collection`, {
@@ -48,13 +50,15 @@ const App = () => {
     })
       .then(() => setCollection(prev => [...prev, album]))
       .catch(err => console.error('Failed to add album:', err))
-  }
+  }, [])
 
-  const removeFromCollection = (id) => {
+  const removeFromCollection = useCallback((id) => {
     fetch(`${BACKEND}/collection/${id}`, { method: 'DELETE' })
       .then(() => setCollection(prev => prev.filter(a => a.id !== id)))
       .catch(err => console.error('Failed to remove album:', err))
-  }
+  }, [])
+
+  const collectionIds = useMemo(() => new Set(collection.map(a => a.id)), [collection])
 
   return (
     <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
@@ -65,7 +69,7 @@ const App = () => {
             <MusicApp
               hitAPI={hitAPI}
               searchResults={searchResults}
-              collection={collection}
+              collectionIds={collectionIds}
               addToCollection={addToCollection}
               removeFromCollection={removeFromCollection}
             />

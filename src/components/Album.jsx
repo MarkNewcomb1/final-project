@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState, memo } from 'react'
 
-const Album = (props) => {
+const Album = memo((props) => {
     const [selected, setSelected] = useState(props.inCollection ?? false)
     const getStyle = () => {
         return {
@@ -23,5 +23,5 @@ const Album = (props) => {
             </figcaption>
         </figure>
     )
-}
+})
 export default Album
