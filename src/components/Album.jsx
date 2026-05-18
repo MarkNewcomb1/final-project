@@ -17,7 +17,7 @@ const Album = (props) => {
     }
     return (
         <figure onClick={handleClick} style={getStyle()}>
-            <img src={props.thumb} alt={props.title} />
+            <img src={props.thumb || null} alt={props.title} />
             <figcaption>
                 <span className="title">{props.artist} {props.title}</span>&nbsp; {props.year}
             </figcaption>
