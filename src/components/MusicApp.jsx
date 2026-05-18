@@ -9,13 +9,14 @@ const MusicApp = (props) => {
             <h2>Search Results:</h2>
                 <div className="flex-container">
                 {props.searchResults.map((album) => {
-                    return (<Album 
+                    return (<Album
                         key={album.id}
                         id={album.id}
                         thumb={album.thumb}
                         artist={album.artist}
                         title={album.title}
                         year={album.year}
+                        inCollection={props.collection.some(a => a.id === album.id)}
                         addToCollection={props.addToCollection}
                         removeFromCollection={props.removeFromCollection}
                         />)
